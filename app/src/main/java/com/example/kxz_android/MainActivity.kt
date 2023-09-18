@@ -3,7 +3,7 @@ package com.example.kxz_android
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.example.kxz_android.person_page.electricity.ElectricityPage
+import com.example.kxz_android.ui.component.Toast.TosatPrevie1
 import com.example.kxz_android.ui.theme.KxzAndroidTheme
 
 class MainActivity:ComponentActivity() {
@@ -11,7 +11,7 @@ class MainActivity:ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             KxzAndroidTheme {
-                ElectricityPage()
+                TosatPrevie1()
             }
         }
     }

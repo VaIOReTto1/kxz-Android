@@ -62,6 +62,7 @@ val fontSizeTipMini20 = 30.sp //subtitle3
 
 val sizeIconMain50 = 50.dp //图标大小管理
 
+@Composable
 fun FlyText(
     text: String, maxLines: Int = Int.MAX_VALUE,
     color: Color = Color.Unspecified,
