@@ -1,0 +1,245 @@
+[
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "张晓春",
+    "time": "1-4周, 星期一",
+    "weeks": "星期一",
+    "section": "1-2节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "袁小平",
+    "time": "4-5周,7-11周, 星期一",
+    "weeks": "星期一",
+    "section": "1-2节"
+  },
+  {
+    "course": "计算机组成原理",
+    "credit": "2.5",
+    "place": "博1-A201",
+    "teacher": "王莉2",
+    "time": "7-16周, 星期一",
+    "weeks": "星期一",
+    "section": "3-4节"
+  },
+  {
+    "course": "乒乓球(3)",
+    "credit": "0.5",
+    "place": "体育馆B133乒乓球室",
+    "teacher": "张清华",
+    "time": "1-5周,7-13周, 星期一",
+    "weeks": "星期一",
+    "section": "7-8节"
+  },
+  {
+    "course": "程序设计综合实践",
+    "credit": "3.0",
+    "place": "计-25机房",
+    "teacher": "黎捷",
+    "time": "7-18周, 星期二",
+    "weeks": "星期二",
+    "section": "1-4节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B103",
+    "teacher": "张晓春",
+    "time": "3周, 星期二",
+    "weeks": "星期二",
+    "section": "3-4节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "张晓春",
+    "time": "4周, 星期二",
+    "weeks": "星期二",
+    "section": "3-4节"
+  },
+  {
+    "course": "线性代数",
+    "credit": "2.0",
+    "place": "博2-A203",
+    "teacher": "段滋明",
+    "time": "1-5周,7-9周, 星期二",
+    "weeks": "星期二",
+    "section": "5-6节"
+  },
+  {
+    "course": "概率论与数理统计",
+    "credit": "2.5",
+    "place": "博1-A302",
+    "teacher": "韩苗",
+    "time": "10-19周, 星期二",
+    "weeks": "星期二",
+    "section": "5-6节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "张晓春",
+    "time": "1-2周, 星期二",
+    "weeks": "星期二",
+    "section": "7-8节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "袁小平",
+    "time": "5-7周(单),8-11周, 星期二",
+    "weeks": "星期二",
+    "section": "7-8节"
+  },
+  {
+    "course": "经典电影与文学",
+    "credit": "2.0",
+    "place": "博5-C108",
+    "teacher": "刘源1",
+    "time": "1-5周,7-9周, 星期二",
+    "weeks": "星期二",
+    "section": "9-10节"
+  },
+  {
+    "course": "创新教育基础",
+    "credit": "1.0",
+    "place": "博4-B102",
+    "teacher": "路振花",
+    "time": "11-18周, 星期二",
+    "weeks": "星期二",
+    "section": "9-10节"
+  },
+  {
+    "course": "大学物理 B（2）",
+    "credit": "3.0",
+    "place": "博1-A101",
+    "teacher": "黄志敏",
+    "time": "1-5周,7-14周, 星期三",
+    "weeks": "星期三",
+    "section": "1-2节"
+  },
+  {
+    "course": "计算机组成原理",
+    "credit": "2.5",
+    "place": "博1-A201",
+    "teacher": "王莉2",
+    "time": "7-16周, 星期三",
+    "weeks": "星期三",
+    "section": "3-4节"
+  },
+  {
+    "course": "拓展中心实验器材与设备整理",
+    "credit": "无",
+    "place": "第二田径场",
+    "teacher": "周云圣",
+    "time": "7周, 星期三",
+    "weeks": "星期三",
+    "section": "5-8节"
+  },
+  {
+    "course": "概率论与数理统计",
+    "credit": "2.5",
+    "place": "博1-A302",
+    "teacher": "韩苗",
+    "time": "10-19周, 星期四",
+    "weeks": "星期四",
+    "section": "1-2节"
+  },
+  {
+    "course": "线性代数",
+    "credit": "2.0",
+    "place": "博2-A203",
+    "teacher": "段滋明",
+    "time": "1-5周,7-9周, 星期四",
+    "weeks": "星期四",
+    "section": "3-4节"
+  },
+  {
+    "course": "计算机系统课程设计",
+    "credit": "2.0",
+    "place": "计-17机房",
+    "teacher": "王莉2",
+    "time": "11-18周, 星期四",
+    "weeks": "星期四",
+    "section": "5-8节"
+  },
+  {
+    "course": "经典电影与文学",
+    "credit": "2.0",
+    "place": "博5-C108",
+    "teacher": "刘源1",
+    "time": "1-5周,7-9周, 星期四",
+    "weeks": "星期四",
+    "section": "9-10节"
+  },
+  {
+    "course": "大学英语（4）",
+    "credit": "2.0",
+    "place": "博5-C507",
+    "teacher": "周萍",
+    "time": "1-4周,7-18周, 星期五",
+    "weeks": "星期五",
+    "section": "1-2节"
+  },
+  {
+    "course": "大学物理 B（2）",
+    "credit": "3.0",
+    "place": "博1-A101",
+    "teacher": "黄志敏",
+    "time": "1-4周,7-13周, 星期五",
+    "weeks": "星期五",
+    "section": "3-4节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "张晓春",
+    "time": "1-2周, 星期五",
+    "weeks": "星期五",
+    "section": "5-6节"
+  },
+  {
+    "course": "电路与数字系统",
+    "credit": "3.5",
+    "place": "博3-B102",
+    "teacher": "袁小平",
+    "time": "4周,7-11周, 星期五",
+    "weeks": "星期五",
+    "section": "5-6节"
+  },
+  {
+    "course": "“无废校园、美丽校园”专题劳动实践",
+    "credit": "无",
+    "place": "第一田径场",
+    "teacher": "肖昕",
+    "time": "7周, 星期日",
+    "weeks": "星期日",
+    "section": "1-4节"
+  },
+  {
+    "course": "计算机专业劳动教育与实践",
+    "credit": "无",
+    "place": "计-B518",
+    "teacher": "王志晓",
+    "time": "6周, 星期日",
+    "weeks": "星期日",
+    "section": "1-8节"
+  },
+  {
+    "course": "“无废校园、美丽校园”专题劳动实践",
+    "credit": "无",
+    "place": "第一田径场",
+    "teacher": "林裕熙",
+    "time": "7周, 星期日",
+    "weeks": "星期日",
+    "section": "5-6节"
+  }
+]
