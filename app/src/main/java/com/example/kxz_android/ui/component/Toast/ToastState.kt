@@ -6,6 +6,7 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.composed
 import androidx.compose.ui.focus.FocusManager
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.hapticfeedback.HapticFeedback
@@ -107,9 +108,8 @@ fun Modifier.doubleClick(onDoubleClick: (Offset) -> Unit): Modifier =
 //    }
 
 
-@Composable
 fun Modifier.clickableNoIndication(focusManager: FocusManager) =
-    this.clickable(
+    composed { this.clickable(
         onClick = {
             focusManager.clearFocus()
         },
@@ -118,7 +118,7 @@ fun Modifier.clickableNoIndication(focusManager: FocusManager) =
         interactionSource = remember {
             MutableInteractionSource()
         }
-    )
+    ) }
 
 fun HapticFeedback.vibration() {
     this.performHapticFeedback(HapticFeedbackType.TextHandleMove)
