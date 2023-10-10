@@ -5,8 +5,9 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.kxz_android.coursePage.PageWithIndicator
-import com.example.kxz_android.person_page.electricity.ElectricityPage
+import com.example.kxz_android.Page.coursePage.NavigatorPage.BottomNavigationView
+import com.example.kxz_android.Page.coursePage.PageWithIndicator
+import com.example.kxz_android.Page.coursePage.electricity.ElectricityPage
 import com.example.kxz_android.ui.theme.KxzAndroidTheme
 
 class MainActivity:ComponentActivity() {
@@ -14,7 +15,7 @@ class MainActivity:ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             KxzAndroidTheme {
-               PageWithIndicator()
+               BottomNavigationView()
             }
         }
     }
@@ -24,6 +25,6 @@ class MainActivity:ComponentActivity() {
 @Composable
 fun preview(){
     KxzAndroidTheme {
-        ElectricityPage()
+        BottomNavigationView()
     }
 }

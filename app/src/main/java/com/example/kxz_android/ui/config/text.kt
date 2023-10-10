@@ -56,12 +56,12 @@ val spaceCardPaddingRL = 45.dp;//左右内边距
 //字体大小管理
 val fontSizeTitle50 = 19.sp //headline1
 val fontSizeTitle45 = 18.sp //headline2
-val fontSizeMain40 = 39.825.sp //body1
+val fontSizeMain40 = 40.sp //body1
 val fontSizeMini38 = 15.3.sp //body2
-val fontSizeTip40 = 39.825.sp //subtitle1
+val fontSizeTip40 = 40.sp //subtitle1
 val fontSizeTip33 = 36.sp //subtitle1
 val fontSizeTipMini25 = 26.sp //subtitle2
-val fontSizeTipMini20 = 29.86875.sp //subtitle3
+val fontSizeTipMini20 = 30.sp //subtitle3
 
 val sizeIconMain50 = 45.dp //图标大小管理
 

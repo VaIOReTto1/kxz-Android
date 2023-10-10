@@ -1,4 +1,4 @@
-package com.example.kxz_android.person_page.electricity
+package com.example.kxz_android.Page.coursePage.electricity
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
@@ -71,7 +71,12 @@ fun ElectricityPage() {
         FlyText(
             text = "未绑定",
             color = TextColor,
-            modifier = Modifier.padding(top = spaceCardMarginTB, start = spaceCardMarginRL, end = spaceCardMarginRL, bottom = spaceCardMarginTB),
+            modifier = Modifier.padding(
+                top = spaceCardMarginTB,
+                start = spaceCardMarginRL,
+                end = spaceCardMarginRL,
+                bottom = spaceCardMarginTB
+            ),
             fontSize = fontSizeTitle50,
             fontWeight = FontWeight.Bold
         )
@@ -84,7 +89,7 @@ fun ElectricityPage() {
 fun PageHeader() {
     Row(
         verticalAlignment = Alignment.CenterVertically,
-        modifier = Modifier.padding(top = spaceCardMarginTB/2,  bottom = spaceCardMarginTB)
+        modifier = Modifier.padding(top = spaceCardMarginTB / 2, bottom = spaceCardMarginTB)
     ) {
         IconButton(
             onClick = {},
@@ -102,7 +107,7 @@ fun PageHeader() {
                 .padding(start = 16.dp),
             contentAlignment = Alignment.Center
         ) {
-            Text(
+            FlyText(
                 text = "宿舍电量（需内网或VPN）",
                 textAlign = TextAlign.Center,
                 fontSize = fontSizeTitle45
@@ -119,7 +124,7 @@ fun ElectricityCircle(electricity: Int) {
         modifier = Modifier
             .size(360.dp)
             .background(Color.Transparent)
-            .padding(top = spaceCardMarginTB,  bottom = spaceCardMarginTB)
+            .padding(top = spaceCardMarginTB, bottom = spaceCardMarginTB)
     ) {
         // 画灰色圆环
         Canvas(
@@ -172,7 +177,12 @@ fun ElectricityCircle(electricity: Int) {
 fun MessageTable() {
     Column(
         modifier = Modifier
-            .padding(top = spaceCardMarginTB/2, start = spaceCardMarginRL, end = spaceCardMarginRL, bottom = spaceCardMarginTB/4)
+            .padding(
+                top = spaceCardMarginTB / 2,
+                start = spaceCardMarginRL,
+                end = spaceCardMarginRL,
+                bottom = spaceCardMarginTB / 4
+            )
             .height(675.dp)
             .fillMaxSize()
             .clip(RoundedCornerShape(20.dp)) // 设置圆角
@@ -180,10 +190,20 @@ fun MessageTable() {
         Column(
             modifier = Modifier
                 .background(color = Color.White)
-                .fillMaxSize().padding(start = spaceCardPaddingRL, top = spaceCardPaddingTB,bottom=spaceCardPaddingTB, end = spaceCardPaddingRL)
+                .fillMaxSize().padding(
+                    start = spaceCardPaddingRL,
+                    top = spaceCardPaddingTB,
+                    bottom = spaceCardPaddingTB,
+                    end = spaceCardPaddingRL
+                )
         ) {
-            FlyText(text = "绑定信息", color = SecondaryTextColor, fontSize = fontSizeTitle45,modifier = Modifier
-                .padding(bottom=spaceCardPaddingTB/3))
+            FlyText(
+                text = "绑定信息",
+                color = SecondaryTextColor,
+                fontSize = fontSizeTitle45,
+                modifier = Modifier
+                    .padding(bottom = spaceCardPaddingTB / 3)
+            )
             Divider(
                 color = Color(0xffe1e5e8), // 设置横线颜色
                 modifier = Modifier
@@ -195,7 +215,7 @@ fun MessageTable() {
             RoomId()
             Box(
                 modifier = Modifier
-                    .padding(top = spaceCardPaddingTB/4)
+                    .padding(top = spaceCardPaddingTB / 4)
                     .fillMaxWidth()
                     .height(120.dp)
                     .clip(RoundedCornerShape(20.dp)) // 先应用 clip
@@ -219,7 +239,7 @@ fun Dormitory() {
     val items = listOf("兰梅", "松竹", "桃苑", "杏苑")
     Row(
         modifier = Modifier
-            .padding(top = spaceCardPaddingTB,bottom=spaceCardPaddingTB)
+            .padding(top = spaceCardPaddingTB, bottom = spaceCardPaddingTB)
     ) {
         Text(text = "宿舍楼", fontSize = fontSizeTip40)
         Box(
@@ -277,7 +297,7 @@ fun Dormitory() {
 fun RoomId() {
     var textValue by remember { mutableStateOf("输入大寝室号(如M2B319)") }
     var cursorPosition by remember { mutableStateOf(0) }
-    Row(modifier = Modifier.padding(top = spaceCardPaddingTB,bottom=spaceCardPaddingTB)) {
+    Row(modifier = Modifier.padding(top = spaceCardPaddingTB, bottom = spaceCardPaddingTB)) {
         Text(
             text = "大寝号", fontSize = fontSizeTip40
         )
@@ -303,7 +323,12 @@ fun RoomId() {
 fun Recharge() {
     Column(
         modifier = Modifier
-            .padding(top = spaceCardMarginTB/4, start = spaceCardMarginRL, end = spaceCardMarginRL, bottom = spaceCardMarginTB/2)
+            .padding(
+                top = spaceCardMarginTB / 4,
+                start = spaceCardMarginRL,
+                end = spaceCardMarginRL,
+                bottom = spaceCardMarginTB / 2
+            )
             .height(322.5.dp)
             .fillMaxSize()
             .clip(RoundedCornerShape(20.dp)) // 设置圆角
@@ -311,9 +336,19 @@ fun Recharge() {
         Column(
             modifier = Modifier
                 .background(color = Color.White)
-                .fillMaxSize().padding(start = spaceCardPaddingRL, top = spaceCardMarginTB,bottom=spaceCardMarginTB, end = spaceCardPaddingRL)
+                .fillMaxSize().padding(
+                    start = spaceCardPaddingRL,
+                    top = spaceCardMarginTB,
+                    bottom = spaceCardMarginTB,
+                    end = spaceCardPaddingRL
+                )
         ) {
-            Text(text = "充值", color = SecondaryTextColor, fontSize = fontSizeTitle45, modifier = Modifier.padding(bottom=spaceCardPaddingTB/3))
+            Text(
+                text = "充值",
+                color = SecondaryTextColor,
+                fontSize = fontSizeTitle45,
+                modifier = Modifier.padding(bottom = spaceCardPaddingTB / 3)
+            )
             Divider(
                 color = Color(0xffe1e5e8), // 设置横线颜色
                 modifier = Modifier
@@ -325,7 +360,7 @@ fun Recharge() {
                 modifier = Modifier
                     .fillMaxWidth()
                     .height(150.dp)
-                    .padding(top = spaceCardPaddingTB/2)
+                    .padding(top = spaceCardPaddingTB / 2)
                     .clickable(interactionSource = remember { MutableInteractionSource() },
                         indication = null, onClick = {})
                     .border(2.dp, Color(0xff0abea5), shape = RoundedCornerShape(20.dp))

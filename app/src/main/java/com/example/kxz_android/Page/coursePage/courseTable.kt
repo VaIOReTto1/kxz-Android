@@ -1,4 +1,4 @@
-package com.example.kxz_android.coursePage
+package com.example.kxz_android.Page.coursePage
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image

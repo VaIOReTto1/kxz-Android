@@ -191,6 +191,7 @@
 //        when (theme) {
 //            WordsFairyTheme.Theme.Light -> LightColorScheme
 //            WordsFairyTheme.Theme.Dark -> DarkColorScheme
+//            else -> {}
 //        }
 //    }
 //
